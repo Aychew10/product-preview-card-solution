@@ -6,22 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,100&family=Outfit:wght@100;500&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,100&family=Outfit:wght@100;500&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
-  <title>Frontend Mentor | Product preview card component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -30,38 +23,52 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-  </style>
+  </style> -->
 </head>
 
 <body>
+  <div class="box">
 
-  <main>
-
-    <div class="box">
-
-      <div class="chanel-img"></div>
-
-      <div class="content">
-        
-          <div class="perf">perfume</div>
-
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-
-          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
-            Perfumer-Creator for the House of CHANEL.</p>
-          <ul>
-            <li> $149.99</li>
-            <li> $169.99</li>
-          </ul>
-
-          <button class="btn"> <img src="./images/icon-cart.svg" alt="cart Icon" class="icon"> Add to Cart </button>
+    <div class="img-body">
+      <img src="./images/image-equilibrium.jpg" alt="Equilibrium" class="imgs">
+      <div class="eye"><img src="./images/icon-view.svg" alt=""></div>
+    </div>
+    <div class="note-body">
+      <h2>
+        Equilibrium #3429
+      </h2>
+      <p>
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="detail">
+        <div class="one">
+          <img src="./images/icon-ethereum.svg" alt="icon-ethereum">
+          <h4>
+            0.041 ETH
+          </h4>
+        </div>
+        <div class="two">
+          <img src="./images/icon-clock.svg" alt="Clock">
+          <h4>
+            3 days left
+          </h4>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div class="last">
+        <img src="./images/image-avatar.png" alt="IMG">
+        <p>
+          Creation of  <span class="name">Jules Wyvern</span>
+        </p>
       </div>
     </div>
+
+
     <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">WEHCYA</a>.
-  </div> -->
-  </main>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">WEHCYA</a>.
+    </div> -->
+  </div>
 </body>
 
 </html>
